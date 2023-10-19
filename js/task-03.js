@@ -17,7 +17,7 @@ const galleryEl = document.querySelector(".gallery");
 
 const makeElemImg = ({ url, alt }) => {
   return `<li class="gallery">
-            <img class="gallery-img" src=${url} alt=${alt}></img>
+            <img class="gallery-img" src=${url} alt=${alt} width="300"></img>
           </li>`;
 };
 
