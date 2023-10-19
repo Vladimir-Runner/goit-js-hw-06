@@ -11,10 +11,10 @@
 //   }
 // }
 
-const input = document.querySelector("#name-input");
+const textInput = document.querySelector("#name-input");
 const output = document.querySelector("#name-output");
 
-input.addEventListener("input", onChangeInput);
+textInput.addEventListener("input", onChangeInput);
 
 function onChangeInput(event) {
   if (event.currentTarget.value.trim() === "") {
