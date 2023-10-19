@@ -12,14 +12,14 @@
 // }
 
 const textInput = document.querySelector("#name-input");
-const output = document.querySelector("#name-output");
+const textOutput = document.querySelector("#name-output");
 
 textInput.addEventListener("input", onChangeInput);
 
 function onChangeInput(event) {
   if (event.currentTarget.value.trim() === "") {
-    output.textContent = "Anonymous";
+    textOutput.textContent = "Anonymous";
   } else {
-    output.textContent = event.currentTarget.value;
+    textOutput.textContent = event.currentTarget.value;
   }
 }
