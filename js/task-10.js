@@ -5,12 +5,12 @@ function getRandomHexColor() {
 }
 
 const controlsDiv = document.querySelector("#controls");
-const createCube = controlsDiv.querySelector("[data-create]");
-const destroyCube = controlsDiv.querySelector("[data-destroy]");
+const createrCube = controlsDiv.querySelector("[data-create]");
+const destroyerCube = controlsDiv.querySelector("[data-destroy]");
 const boxesDiv = document.querySelector("#boxes");
 
-createCube.addEventListener("click", createCube);
-destroyCube.addEventListener("click", destroyCube);
+createrCube.addEventListener("click", createCube);
+destroyerCube.addEventListener("click", destroyCube);
 
 function createCube() {
   const amount = +document.querySelector("input").value;
