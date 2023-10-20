@@ -1,6 +1,6 @@
-const form = document.querySelector(".login-form");
+const loginForm = document.querySelector(".login-form");
 
-form.addEventListener("submit", onSubmit);
+loginForm.addEventListener("submit", onSubmit);
 
 function onSubmit(event) {
   event.preventDefault();
